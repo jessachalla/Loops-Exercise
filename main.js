@@ -1,5 +1,7 @@
+alert("This exercise takes place in console.")
 
 
+// Use a for loop to log numbers from 1 to 10, then another for loop to count down, logging numbers from 10 to 1.
 // This is a for loop
 for (let i=1; i <= 10; i++) 
     {console.log(i); 
@@ -10,7 +12,7 @@ for (let i=10; i >= 1; i--)
 }
 
 
-
+// Repeat the exercise with a while loop.
 //This is a while loop
 let i = 1;
 while (i<=10) {
@@ -25,7 +27,7 @@ i--;}
 
 
 
-
+// Repeat with a do while.
 //This is a do while
 i = 1; //I didn't have to put "let" here because I declared "let" in the while loop
 do {
